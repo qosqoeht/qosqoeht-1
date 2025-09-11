@@ -43,14 +43,7 @@ p {
   margin-left: 1.55rem;
 }
 
-.b-logo {
-  width: 100%;
-  height: 100%;
-  background-color: rgb(33, 33, 33);
-  cursor: pointer;
-  transition: all 0.3s ease-in-out; 
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
-}
+
 
 .lp-h-pu {
   max-width:100%; 
@@ -89,6 +82,7 @@ p {
   height: auto;
 
 }
+
 
 
 
