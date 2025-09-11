@@ -38,8 +38,8 @@ p {
 .pu-h {
   display: flex;
   vertical-align: middle;
-  height: 6.1vh;
-  width: 208px;
+  height: 5.9vh;
+  width: 180px;
   margin-left: 1.55rem;
 }
 
@@ -80,3 +80,4 @@ p {
   height: auto;
 
 }
+
