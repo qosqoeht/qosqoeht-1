@@ -85,6 +85,10 @@
 }
 
 
+.extra-3 {
+display: grid; /* Enables CSS Grid for the container */
+  grid-template-columns: 1fr 1fr 1fr; /* Defines three equal-width columns */
+  width: 100%; /* Ensures the container }
 
 
 
