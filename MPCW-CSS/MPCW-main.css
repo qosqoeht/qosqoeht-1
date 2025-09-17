@@ -1,0 +1,191 @@
+
+/* FullCall button */
+
+.full-cal-button {
+  display: block;
+  width: 175px; 
+  margin: 0 auto;
+  background-color: rgb(54, 54, 57);
+  border: 1.7px solid white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.full-cal-text {
+  color: white;
+  text-align: center;
+  font-size: 0.85rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+
+
+
+/* ThisWeek - NextWeek Text / Button */
+
+.thisweek-nextweek-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-top: 1.6vh;
+  margin-bottom: 1.6vh;
+}
+
+@media screen and (max-width: 768px) {
+  .thisweek-nextweek-div {
+    margin: 1.3rem;}
+  }
+
+.this-week-text {
+  font-size: 0.55rem;
+  margin-bottom: 0;
+}
+
+.nextweek-button {
+  margin-bottom: 0;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  background-color: rgb(54, 54, 57);
+  border: 1.2px solid white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
+
+.nextweek-text {
+  text-align: center;
+  color: white;
+  margin-top: 0.35rem;
+  margin-bottom: 0.35rem;
+  padding-left: 0;
+  padding-right: 0;
+  font-size: 0.65rem;
+}
+
+
+
+
+/* WeekGrid */
+
+.week {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  overflow-x: auto;
+  white-space: nowrap;
+  overflow-y: clip;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .week {
+    margin: 1.3rem;}
+  }
+
+.day {
+  min-width: 135.71px;
+}
+
+.hours {
+  font-size: 0.65rem;
+  padding-left: 0.5rem;
+}
+
+.day-date {
+  text-align: center;
+  vertical-align: middle;
+  height: 4.2vh;
+  border: 1.5px solid rgb(224, 224, 224);
+}
+
+.day-date-text {
+  margin-top: 1.07vh;
+  margin-bottom: 0.5vh;
+  font-size: 0.85rem;
+}
+
+.morning {
+  height: 11.8vh;
+  border: 1px solid rgb(224, 224, 224);
+}
+
+.afternoon {
+  height: 23.6vh;
+  border: 1px solid rgb(224, 224, 224);
+}
+
+.night {
+  height: 23.6vh;
+  border: 1px solid rgb(224, 224, 224);
+}
+
+
+
+
+
+
+/* ExtraDivs 4,6,9 */
+
+.div-2-4 {
+  height: 11.8vh;
+  width: 100%;
+  flex: 1 1 50%; /* Distributes space equally, 50% width for two columns */
+  display: flex; /* To center the button within its wrapper */
+  justify-content: center; /* Horizontally centers the button */
+}
+
+
+.div-2-3 {
+  height: 11.8vh;
+  width: 100%;
+  display: grid; /* Enables CSS Grid for the container */
+  grid-template-columns: 1fr 1fr 1fr; /* Defines three equal-width columns */
+}
+
+
+.div-3-3 {
+  height: 7.86vh; /* check exact heigh!!! */
+  width: 100%;
+  display: grid; /* Enables CSS Grid for the container */
+  grid-template-columns: 1fr 1fr 1fr; /* Defines three equal-width columns */
+}
+
+
+.extra {
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+
+
+/* FlyerButton */
+
+.flyer-button {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(33, 33, 33);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out; 
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* check horizontal shadow and black color intensity */
+}
+
+.flyers {
+  width: 100%;
+  height: 100%;
+}
+
+.flyers:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3); /* check horizontal shadow and black color intensity */
+}
