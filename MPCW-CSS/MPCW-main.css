@@ -219,7 +219,7 @@
 .tooltip {
   position: absolute;
   font-family: monospace;
-  font-size: 0.33rem;
+  font-size: 0.38rem;
   color: white;
   background-color: black;
   top: 0.3rem;
@@ -241,7 +241,7 @@
   transform: translateX(-50%); /* Center horizontally */
   background-color: black;
   color: white;
-  font-size: 0.6rem;
+  font-size: 0.7rem;
   padding: 0.3rem 0.3rem;
   border-radius: 4px;
   white-space: nowrap;
@@ -270,32 +270,5 @@
 
 
 
-/*------------------
 
-.search-button .tooltipj,
-.voice-button .tooltipj {
-  position: absolute;
-  background-color: gray;
-  color: white;
-  padding-top: 4px;
-  padding-bottom: 4px;
-  padding-left: 8px;
-  padding-right: 8px;
-  border-radius: 2px;
-  font-size: 12px;
-  bottom: -30px;
-  opacity: 0;
-  transition: opacity 0.15s;
-  pointer-events: none;
-  white-space: nowrap;
-}
-
-.search-button:hover .tooltipj,
-.voice-button:hover .tooltipj {
-  opacity: 1;
-}
-
-
-
-----------*/
 
