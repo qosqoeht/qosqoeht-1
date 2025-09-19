@@ -48,7 +48,7 @@
   }
 
 .this-week-text {
-  font-size: 0.55rem;
+  font-size: 0.75rem;
   margin-bottom: 0;
 }
 
@@ -81,7 +81,7 @@
   margin-bottom: 0.35rem;
   padding-left: 0;
   padding-right: 0;
-  font-size: 0.65rem;
+  font-size: 0.75rem;
 }
 
 
@@ -294,6 +294,7 @@
 .voice-button:hover .tooltipj {
   opacity: 1;
 }
+
 
 
 ----------*/
