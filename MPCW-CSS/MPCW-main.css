@@ -219,7 +219,7 @@
 .tooltip {
   position: absolute;
   font-family: monospace;
-  font-size: 0.38rem;
+  font-size: 0.4rem;
   color: white;
   background-color: black;
   top: 0.3rem;
@@ -236,7 +236,7 @@
 
 .tooltip-text {
   position: absolute;
-  top: -38px; /* Position above the absolute-div CHECK IN MOBILE!!! */
+  top: -41px; /* Position above the absolute-div CHECK IN MOBILE!!! */
   left: 50%;
   transform: translateX(-50%); /* Center horizontally */
   background-color: black;
@@ -263,6 +263,7 @@
   visibility: visible;
   opacity: 1;
 }
+
 
 
 
