@@ -18,7 +18,7 @@
 
 
 .month-day-div {
-  height: 12vh;
+  height: 8vh;
 }
 
 .week-day {
@@ -36,24 +36,24 @@
 }
 
 .month-text {
-  font-size: 0.7rem;
+  font-size: 0.75rem;
   writing-mode: sideways-lr; /* Or vertical-lr */
   text-align: end;
   justify-content:right;
   margin: 0;
-  padding-top: 1rem;
+  padding-top: 0.8rem;
 }
 
 
 
 .current-week {
-  height: 18vh;
+  height: 14vh;
   border: 3.9px solid rgb(195, 195, 195);
   border-radius: 1.5px;
 }
 
 .future-week {
-  height: 18vh;
+  height: 14vh;
   border: 1.75px solid none;
   border-radius: 1.5px;
 }
@@ -84,4 +84,5 @@
   text-align: right;
   margin-left: 5rem;
   margin-right: 5rem;
+
 }
