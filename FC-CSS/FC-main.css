@@ -1,0 +1,87 @@
+
+.month-week-div {
+  display: grid;
+  grid-template-columns: 2rem 14fr;
+  flex-direction: row;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  padding-top: 0.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .month-week-div {
+    margin: 1.3rem;
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;}
+  }
+
+
+
+.month-day-div {
+  height: 12vh;
+}
+
+.week-day {
+  width: 100%;
+  height: 100%;
+}
+
+.week-day-image {
+  width: 100%;
+  height: 100%;
+}
+
+.month-div {
+  justify-items: center;
+}
+
+.month-text {
+  font-size: 0.7rem;
+  writing-mode: sideways-lr; /* Or vertical-lr */
+  text-align: end;
+  justify-content:right;
+  margin: 0;
+  padding-top: 1rem;
+}
+
+
+
+.current-week {
+  height: 18vh;
+  border: 3.9px solid rgb(195, 195, 195);
+  border-radius: 1.5px;
+}
+
+.future-week {
+  height: 18vh;
+  border: 1.75px solid none;
+  border-radius: 1.5px;
+}
+
+.week-button {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(33, 33, 33);
+  cursor: pointer;
+  transition: all 0.7s ease-in-out; 
+}
+
+.week-image {
+  width: 100%;
+  height: 100%;
+}
+
+.week-image:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 8px 10px rgba(0, 0, 0, 3.5); 
+}
+
+
+
+
+.final-text {
+  font-size: 0.6rem;
+  text-align: right;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
