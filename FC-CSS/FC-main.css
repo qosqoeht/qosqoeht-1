@@ -5,29 +5,30 @@
   flex-direction: row;
   margin-left: 4rem;
   margin-right: 4rem;
-  padding-top: 0.5rem;
+  padding-top: 0.2rem;
 }
 
 @media screen and (max-width: 768px) {
   .month-week-div {
     margin: 1.3rem;
-    margin-top: 0.4rem;
-    margin-bottom: 0.4rem;}
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;}
   }
 
 
 
 .month-day-div {
-  height: 8vh;
+  height: 5vh;
 }
 
 .week-day {
   width: 100%;
   height: 100%;
+  text-align: center
 }
 
 .week-day-image {
-  width: 100%;
+  width: 97%;
   height: 100%;
 }
 
@@ -41,7 +42,7 @@
   text-align: end;
   justify-content:right;
   margin: 0;
-  padding-top: 0.8rem;
+  padding-top: 0.75rem;
 }
 
 
@@ -86,3 +87,4 @@
   margin-right: 5rem;
 
 }
+
