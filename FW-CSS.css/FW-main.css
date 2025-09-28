@@ -273,7 +273,7 @@
   position: absolute;
   top: -41px; /* Position above the absolute-div CHECK IN MOBILE!!! */
   left: 50%;
-  transform: translateX(-82%); /* Center horizontally */
+  transform: translateX(-90%); /* Center horizontally */
   background-color: black;
   color: white;
   font-size: 0.7rem;
@@ -298,4 +298,5 @@
   visibility: visible;
   opacity: 1;
 }
+
 
