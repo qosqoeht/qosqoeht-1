@@ -207,6 +207,7 @@
 .flyers:hover {
   transform: translateY(-5px);
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 7); /* check horizontal shadow and black color intensity */
+  filter: brightness(75%);
 }
 
 
@@ -298,5 +299,6 @@
   visibility: visible;
   opacity: 1;
 }
+
 
 
