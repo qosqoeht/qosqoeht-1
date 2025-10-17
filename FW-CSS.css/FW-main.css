@@ -149,6 +149,49 @@
 
 
 
+/* ONLY FOR HALLOWEEN - MULTIPLE EVENTS*/
+/* ONLY FOR HALLOWEEN - MULTIPLE EVENTS*/
+/* ONLY FOR HALLOWEEN - MULTIPLE EVENTS*/
+/* ONLY FOR HALLOWEEN - MULTIPLE EVENTS*/
+/* ONLY FOR HALLOWEEN - MULTIPLE EVENTS*/
+
+
+
+.night-e {
+  height: 23.9vh;
+  border-top: none;
+  border-left: 1px solid rgb(224, 224, 224);
+  border-right: 1px solid rgb(224, 224, 224);
+  border-bottom: 1px solid rgb(224, 224, 224);
+  position: relative;
+}
+
+
+
+
+.afternoon-e {
+  height: 23.6vh;
+  border-top: 1px solid rgb(224, 224, 224);
+  border-left: 1px solid rgb(224, 224, 224);
+  border-right: 1px solid rgb(224, 224, 224);
+  border-bottom: none;
+  position: relative;
+}
+
+
+
+/* ONLY FOR HALLOWEEN - MULTIPLE EVENTS*/
+/* ONLY FOR HALLOWEEN - MULTIPLE EVENTS*/
+/* ONLY FOR HALLOWEEN - MULTIPLE EVENTS*/
+/* ONLY FOR HALLOWEEN - MULTIPLE EVENTS*/
+/* ONLY FOR HALLOWEEN - MULTIPLE EVENTS*/
+
+
+
+
+
+
+
 /* ExtraDivs 2,4,6,9 */
 
 .div-2-4 {
@@ -187,6 +230,42 @@
   height: 7.78vh; 
   position: relative; 
 }
+
+
+
+
+
+
+
+
+
+/* ONLY FOR HALLOWEEN - MULTIPLE EVENTS*/
+/* ONLY FOR HALLOWEEN - MULTIPLE EVENTS*/
+/* ONLY FOR HALLOWEEN - MULTIPLE EVENTS*/
+/* ONLY FOR HALLOWEEN - MULTIPLE EVENTS*/
+/* ONLY FOR HALLOWEEN - MULTIPLE EVENTS*/
+
+
+
+.div-3-3-e {
+  height: 7.78vh; /* check exact heigh!!! */
+  width: 100%;
+  display: grid; /* Enables CSS Grid for the container */
+  grid-template-columns: 1fr 1fr 1fr;
+  border-top: 1px solid rgb(224, 224, 224);;
+}
+
+
+
+/* ONLY FOR HALLOWEEN - MULTIPLE EVENTS*/
+/* ONLY FOR HALLOWEEN - MULTIPLE EVENTS*/
+/* ONLY FOR HALLOWEEN - MULTIPLE EVENTS*/
+/* ONLY FOR HALLOWEEN - MULTIPLE EVENTS*/
+/* ONLY FOR HALLOWEEN - MULTIPLE EVENTS*/
+
+
+
+
 
 
 
@@ -303,6 +382,7 @@
   visibility: visible;
   opacity: 1;
 }
+
 
 
 
