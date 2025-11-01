@@ -392,3 +392,51 @@
 
 
 
+
+/* playlist and contact */
+
+.playlist-div {
+  display: flex;
+  flex-direction: row;
+  vertical-align: top;
+  justify-content: center;
+  margin-left:7.5rem;
+  margin-right: 7.5rem;
+  margin-top: 5.25vh;
+  margin-bottom: 1.5vh;
+}
+
+
+@media screen and (max-width: 768px) {
+  .playlist-div {
+    margin: 1.3rem;
+    flex-direction: column;  
+  }
+  }
+
+
+
+
+  .sc-mx {
+    margin-right: 2.5rem;
+    margin-left: 2.5rem;
+    margin-bottom: 3rem;
+  }
+
+
+
+
+  .contacto {
+  font-size: 1rem;
+  text-align: center;
+  margin-left: 5rem;
+  margin-right: 5rem;
+
+}
+
+
+
+
+
+
+
