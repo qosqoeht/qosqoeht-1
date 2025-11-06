@@ -205,7 +205,7 @@ a {
 
 .promo-div {
   align-content: center;
-  width: 5rem;
+  width: 5.25rem;
   margin-bottom: 2rem;
   margin-left: 1.2rem;
   margin-right: 1.2rem;
@@ -215,7 +215,7 @@ a {
 
 .support-div {
   align-content: center;
-  width: 3.5rem;
+  width: 3rem;
   margin-bottom: 2rem;
   margin-left: 1.2rem;
   margin-right: 1.2rem;
@@ -232,6 +232,7 @@ a {
   transform: translateY(-0.5px);
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 3); 
 }
+
 
 
 
