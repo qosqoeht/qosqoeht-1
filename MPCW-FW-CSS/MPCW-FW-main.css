@@ -404,6 +404,39 @@
 
 
 
+.tooltip-text-monday {
+  position: absolute;
+  top: -41px; 
+  left: 50%;
+  transform: translateX(0%); 
+  background-color: black;
+  color: white;
+  font-size: 0.7rem;
+  padding: 0.3rem 0.3rem;
+  border-radius: 4px;
+  white-space: nowrap;
+  visibility: hidden; 
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  z-index: 100; 
+}
+
+
+
+.tooltip:hover .tooltip-text-monday {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+.tooltip:focus .tooltip-text-monday {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+
+
 
 
 
@@ -447,6 +480,7 @@
   margin-right: 5rem;
 
 }
+
 
 
 
