@@ -408,7 +408,7 @@
   position: absolute;
   top: -41px; 
   left: 50%;
-  transform: translateX(90%); 
+  transform: translateX(1%); 
   background-color: black;
   color: white;
   font-size: 0.7rem;
@@ -480,6 +480,7 @@
   margin-right: 5rem;
 
 }
+
 
 
 
