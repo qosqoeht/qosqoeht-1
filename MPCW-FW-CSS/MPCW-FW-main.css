@@ -172,6 +172,8 @@
 .hours {
   font-size: 0.65rem;
   padding-left: 0.5rem;
+  position: absolute;
+  z-index: 10;
 }
 
 .day-date {
@@ -480,6 +482,7 @@
   margin-right: 5rem;
 
 }
+
 
 
 
