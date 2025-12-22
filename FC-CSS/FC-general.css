@@ -3,7 +3,7 @@ body {
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
-  color: white;
+  color: rgb(255, 255, 255);
   background-color: rgb(33, 33, 33);
   padding-top: 16vh;
 }
@@ -15,3 +15,4 @@ p {
   font-style: normal;
 
 }
+
