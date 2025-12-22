@@ -144,12 +144,14 @@
    cursor: pointer;
    transition: all 0.7s ease-in-out; 
    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+   color: white;
 }
 
 .contact-button:hover {
   transform: translateY(-3px);
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.8); /* check horizontal shadow and black color intensity */
 }
+
 
 
 
