@@ -51,6 +51,26 @@
 }
 
 
+.full-cal-button-fw {
+  text-align: center;
+  display: block;
+  width: 175px; 
+  margin: 0 auto;
+  margin-top: 2vh;
+  background-color: rgb(30, 30, 30);
+  border: 1.7px solid white;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.7s ease-in-out; 
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.full-cal-button-fw:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.8); 
+}
+
+
 
 
 /* ThisWeek - NextWeek Text / Button */
@@ -525,6 +545,7 @@
   transform: translateY(-3px);
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.8); /* check horizontal shadow and black color intensity */
 }
+
 
 
 
