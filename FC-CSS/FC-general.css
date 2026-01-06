@@ -5,7 +5,7 @@ body {
   font-style: normal;
   color: rgb(255, 255, 255);
   background-color: rgb(33, 33, 33);
-  padding-top: 16vh;
+  adding-top: 12vh; 
 }
 
 p {
@@ -15,4 +15,5 @@ p {
   font-style: normal;
 
 }
+
 
