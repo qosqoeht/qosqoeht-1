@@ -148,6 +148,30 @@
 
 
 
+.playlist-text-yt {
+  display: flex;
+  flex-direction: column;
+  vertical-align: top;
+  justify-content: left;
+  color: red;
+  margin-top: 0;
+  font-size: 0.7rem;
+ }
+
+
+ .playlist-text-mc {
+  display: flex;
+  flex-direction: column;
+  vertical-align: top;
+  justify-content: left;
+  color:blue;
+  margin-top: 0;
+  font-size: 0.7rem;
+ }
+
+
+
+
 
 
 /* contact */
